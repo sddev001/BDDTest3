@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 
 
-public class GoogleTest {
+public class GoogleTest2 {
 
 	WebDriver driver;
 	
@@ -21,6 +21,7 @@ public class GoogleTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.google.com");
+		System.out.println("hello");
 	}
 	
 	@Test
