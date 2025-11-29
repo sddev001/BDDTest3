@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-28T03:27:46 CST" name="Default suite" finished-at="2025-11-28T03:27:54 CST" duration-ms="8213">
+  <suite started-at="2025-11-28T07:53:42 CST" name="Suite" finished-at="2025-11-28T07:53:49 CST" duration-ms="7118">
     <groups>
     </groups>
-    <test started-at="2025-11-28T03:27:46 CST" name="Default test" finished-at="2025-11-28T03:27:54 CST" duration-ms="8213">
+    <test started-at="2025-11-28T07:53:42 CST" name="Test3" finished-at="2025-11-28T07:53:49 CST" duration-ms="7118">
       <class name="com.test.google.GoogleTest2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.google.GoogleTest2@54a7079e]" started-at="2025-11-28T03:27:46 CST" name="setup" finished-at="2025-11-28T03:27:48 CST" duration-ms="1985" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.google.GoogleTest2@54a7079e]" started-at="2025-11-28T07:53:42 CST" name="setup" finished-at="2025-11-28T07:53:46 CST" duration-ms="3815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyTitle()[pri:0, instance:com.test.google.GoogleTest2@54a7079e]" started-at="2025-11-28T03:27:48 CST" name="verifyTitle" finished-at="2025-11-28T03:27:51 CST" duration-ms="3052" status="PASS">
+        <test-method signature="verifyTitle()[pri:0, instance:com.test.google.GoogleTest2@54a7079e]" started-at="2025-11-28T07:53:46 CST" name="verifyTitle" finished-at="2025-11-28T07:53:49 CST" duration-ms="3066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test.google.GoogleTest2@54a7079e]" started-at="2025-11-28T03:27:51 CST" name="teardown" finished-at="2025-11-28T03:27:54 CST" duration-ms="3136" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test.google.GoogleTest2@54a7079e]" started-at="2025-11-28T07:53:49 CST" name="teardown" finished-at="2025-11-28T07:53:49 CST" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.test.google.GoogleTest2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
 </testng-results>

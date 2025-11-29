@@ -35,6 +35,7 @@ public class GoogleTest2 {
 		Thread.sleep(1000);
 		Boolean flag = driver.findElement(By.className("lnXdpd")).isDisplayed();
 		Assert.assertTrue(flag);
+		System.out.println("welcome");
 		Thread.sleep(1000);
 	}
 /*	
