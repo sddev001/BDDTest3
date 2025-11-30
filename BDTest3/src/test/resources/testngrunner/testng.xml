@@ -6,4 +6,9 @@
 			<class name="com.test.google.GoogleTest2" />
 		</classes>
 	</test> 
+	<test thread-count="5" name="Test4">
+		<classes>
+			<class name="com.test.restassuredapi.HTTPRequests" />
+		</classes>
+	</test>
 </suite> 

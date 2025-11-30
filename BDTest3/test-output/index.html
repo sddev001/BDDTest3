@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +101,26 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.restassuredapi.HTTPRequests" class="method navigator-link" hash-for-method="getUsers_1">getUsers_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.restassuredapi.HTTPRequests" class="method navigator-link" hash-for-method="getUsers_2">getUsers_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.restassuredapi.HTTPRequests" class="method navigator-link" hash-for-method="getUsers_3">getUsers_3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.restassuredapi.HTTPRequests" class="method navigator-link" hash-for-method="testGet_1">testGet_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.test.google.GoogleTest2" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
@@ -133,6 +153,42 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.restassuredapi.HTTPRequests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsers_1">
+                  </a> <!-- getUsers_1 -->
+                  <span class="method-name">getUsers_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsers_2">
+                  </a> <!-- getUsers_2 -->
+                  <span class="method-name">getUsers_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsers_3">
+                  </a> <!-- getUsers_3 -->
+                  <span class="method-name">getUsers_3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGet_1">
+                  </a> <!-- testGet_1 -->
+                  <span class="method-name">testGet_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -148,6 +204,11 @@
       &lt;class name=&quot;com.test.google.GoogleTest2&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test3 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.restassuredapi.HTTPRequests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test4 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -160,6 +221,9 @@
             <ul>
               <li>
                 <span class="test-name">Test3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test4 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,16 +249,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyTitle')
 data.setCell(0, 2, 'com.test.google.GoogleTest2')
-data.setCell(0, 3, 3066);
+data.setCell(0, 3, 3092);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGet_1')
+data.setCell(1, 2, 'com.test.restassuredapi.HTTPRequests')
+data.setCell(1, 3, 1479);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getUsers_1')
+data.setCell(2, 2, 'com.test.restassuredapi.HTTPRequests')
+data.setCell(2, 3, 962);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getUsers_2')
+data.setCell(3, 2, 'com.test.restassuredapi.HTTPRequests')
+data.setCell(3, 3, 167);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getUsers_3')
+data.setCell(4, 2, 'com.test.restassuredapi.HTTPRequests')
+data.setCell(4, 3, 133);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -227,12 +307,31 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTitle</span>
-                <span class="method-start">3817 ms</span>
+                <span class="method-start">3107 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">6887 ms</span>
+                <span class="method-start">6201 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.restassuredapi.HTTPRequests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGet_1</span>
+                <span class="method-start">8692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUsers_1</span>
+                <span class="method-start">10172 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUsers_2</span>
+                <span class="method-start">11136 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUsers_3</span>
+                <span class="method-start">11305 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
