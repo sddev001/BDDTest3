@@ -43,6 +43,12 @@
 			<artifactId>json</artifactId>
 			<version>20230618</version>
 		</dependency>
+				<!-- extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.1.2</version>
+		</dependency>
  </dependencies>
   	<build>
 		<plugins>
